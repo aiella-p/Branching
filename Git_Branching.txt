@@ -1,0 +1,30 @@
+Branching 
+-------------
+ Master is called default branching of git.whatever activities we are done so far is in Master branch. We can create our own branch and can put data on it. When we are working on loans related functionality we are telling the developers to put code related to loans in this branch loans. once all this is done in this branch we are merging this branch with master branch. this feature is called Branching.
+---------------------------
+
+1. to see the list of all local braches 
+$ git branch
+
+2. to see the local and remote branches
+$ git branch -a
+
+3. to create a branch 
+$ git branch branch_name
+
+4. to move into a branch
+$ git checkout branch_name
+
+5. to create and move into a branch
+$ git checkout  -b branch_name
+
+6. to merge a branch 
+git merge branch_name
+
+7. to delete a branch that is merged
+$ git merge  -d branch_name
+this is also called soft delete
+
+8. to delete a branch that is not merged
+$ git merge  -D branch_name
+this is also called hard delete
